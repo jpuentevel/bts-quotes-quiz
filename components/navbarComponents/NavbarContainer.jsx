@@ -8,7 +8,7 @@ const NavbarContainer = () => {
         <Flex
             w="100%"
             /*bgGradient='linear(to-l, #BC3AD0, #0055D6)'*/
-            bg="cyan.400"
+            bg="bgSecondary"
         >
             <Logo/>
             <Spacer />

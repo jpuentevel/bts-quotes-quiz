@@ -1,8 +1,9 @@
 import React from 'react';
-import NavbarContainer from "../components/indexComponents/navbarComponents/NavbarContainer";
+import NavbarContainer from "../components/navbarComponents/NavbarContainer";
 import {Box, Container, Text} from "@chakra-ui/react";
 
 const Quiz = () => {
+
     return (
         <>
             <Box h='100%' w='100%' bg='bgPrimary'>
@@ -15,7 +16,7 @@ const Quiz = () => {
                         fontWeight='extrabold'
                         color='text'
                     >
-                        Welcome to the BTS Quotes Quiz
+                        Welcome to BTS Quotes Quiz
                     </Text>
                 </Container>
             </Box>

@@ -2,11 +2,11 @@ import { extendTheme } from "@chakra-ui/react"
 
 export const myNewTheme = extendTheme({
     colors: {
-        bgPrimary: "#C7DEF4", //check
-        bgSecondary: "#352A55",
-        text: "#352A55", //check
+        bgPrimary: "#FFDBEA", //check
+        bgSecondary: "#E860A3",
+        textColor: "#352A55", //check
         btnPrimary: "#0055D6", //check
-        btnSecondary: "#FFC8DE", //check
+        btnSecondary: "", //check
     },
     fonts: {
         body: "Roboto, sans-serif",
